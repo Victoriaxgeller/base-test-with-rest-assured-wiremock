@@ -1,6 +1,6 @@
-import model.Pet;
+import api.swagger.fake.model.Pet;
 import org.junit.jupiter.api.*;
-import steps.PetSteps;
+import api.swagger.fake.steps.PetSteps;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,11 +10,11 @@ public class PetTest {
 
     PetSteps petSteps = new PetSteps();
 
-    private final int TEST_PET_ID = 24;
-    private final String TEST_PET_NAME = "Cooper";
-    private final String TEST_PET_NAME_UPD = "Lucie";
-    private final String TEST_PET_STATUS = "available";
-    private final String TEST_PET_STATUS_UPD = "unavailable";
+    public final int TEST_PET_ID = 24;
+    public final String TEST_PET_NAME = "Cooper";
+    public final String TEST_PET_NAME_UPD = "Lucie";
+    public final String TEST_PET_STATUS = "available";
+    public final String TEST_PET_STATUS_UPD = "unavailable";
 
 
     @Test

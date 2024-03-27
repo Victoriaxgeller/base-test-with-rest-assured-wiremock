@@ -8,4 +8,16 @@ public interface Configuration extends Config {
     @Key("baseURL")
     String baseURL();
 
+    @DefaultValue("https://fakestoreapi.com")
+    @Key("fakestoreApiURL")
+    String fakestoreApiURL();
+
+    @DefaultValue("localhost")
+    @Key("wireMockHost")
+    String wireMockHost();
+
+    @DefaultValue("8088")
+    @Key("wireMockPort")
+    Integer wireMockPort();
+
 }
