@@ -10,11 +10,11 @@ public class PetTest {
 
     PetSteps petSteps = new PetSteps();
 
-    public final int TEST_PET_ID = 24;
-    public final String TEST_PET_NAME = "Cooper";
-    public final String TEST_PET_NAME_UPD = "Lucie";
-    public final String TEST_PET_STATUS = "available";
-    public final String TEST_PET_STATUS_UPD = "unavailable";
+    private final int TEST_PET_ID = 24;
+    private final String TEST_PET_NAME = "Cooper";
+    private final String TEST_PET_NAME_UPD = "Lucie";
+    private final String TEST_PET_STATUS = "available";
+    private final String TEST_PET_STATUS_UPD = "unavailable";
 
 
     @Test
